@@ -385,7 +385,7 @@ In this task, you configure the WebVM with the required software and downloads.
 4. Run the code below to copy Parts Unlimited website files to the wwwroot folder targeted by the local webserver.
 
    ```PS
-   Expand-Archive -LiteralPath "C:\MCW\MCW-App-modernization-main\Hands-on lab\lab-files\web-site-publish.zip" -DestinationPath 'C:\inetpub\wwwroot' -Force
+   Expand-Archive -LiteralPath "C:\MCW\microsoft-MCW-App-modernization-5292b7d\Hands-on lab\lab-files\web-deploy-files.zip" -DestinationPath 'C:\inetpub\wwwroot' -Force
    ```
 
 5. In the [Azure portal](https://portal.azure.com), navigate to your **SqlServer2008-ip** resource by selecting **Resource groups** from the Azure services list, selecting the **hands-on-lab-SUFFIX** resource group, and selecting the **SqlServer2008-ip** Public IP address from the list of resources.
